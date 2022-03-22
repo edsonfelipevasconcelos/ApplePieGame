@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var listOfWords = ["mac", "iphone", "ipad", "iwatch", "macbook", "airpod"]
+    var listOfWords = ["mac", "iphone", "ipad", "iwatch", "macbook", "airpod", "appletv"]
     let incorrectMovesAllowed = 7
     
     var totalWins = 0 {
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             newRound()
         }
     }
-    
+    // Outlets
     @IBOutlet var treeImageView: UIImageView!
     @IBOutlet var correctWordLabel: UILabel!
     @IBOutlet var scoreLabel: UILabel!
