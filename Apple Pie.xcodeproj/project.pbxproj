@@ -13,6 +13,7 @@
 		13D201F827E8E90200E2EB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D201F627E8E90200E2EB1C /* Main.storyboard */; };
 		13D201FA27E8E90400E2EB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D201F927E8E90400E2EB1C /* Assets.xcassets */; };
 		13D201FD27E8E90400E2EB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D201FB27E8E90400E2EB1C /* LaunchScreen.storyboard */; };
+		13D2020527E8E92400E2EB1C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D2020427E8E92400E2EB1C /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		13D201F927E8E90400E2EB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D201FC27E8E90400E2EB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D201FE27E8E90400E2EB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D2020427E8E92400E2EB1C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				13D201F027E8E90200E2EB1C /* AppDelegate.swift */,
 				13D201F227E8E90200E2EB1C /* SceneDelegate.swift */,
 				13D201F427E8E90200E2EB1C /* ViewController.swift */,
+				13D2020427E8E92400E2EB1C /* Game.swift */,
 				13D201F627E8E90200E2EB1C /* Main.storyboard */,
 				13D201F927E8E90400E2EB1C /* Assets.xcassets */,
 				13D201FB27E8E90400E2EB1C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				13D201F527E8E90200E2EB1C /* ViewController.swift in Sources */,
 				13D201F127E8E90200E2EB1C /* AppDelegate.swift in Sources */,
 				13D201F327E8E90200E2EB1C /* SceneDelegate.swift in Sources */,
+				13D2020527E8E92400E2EB1C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
